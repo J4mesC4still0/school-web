@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Padres Login</title>
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+
+        <!--Iconscout CDN-->
+        <link rel="stylesheet"
+            href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/login.css">
+    </head>
+    <body>
+        <!-- Start OF NAVBAR-->
+        <nav>
+            <div class="container nav_container">
+                <img src="./imagenes/Logo.png" alt="I.E.P. Virgen de Guadalupe"
+                    class="logo">
+                <a href="index.html"><h4>I.E.P.VIRGEN DE GUADALUPE</h4></a>
+                <ul class="nav_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="login.html">Log-in</a></li>
+                </ul>
+                <button id="open-menu-btn"><i class="uil-bars"></i></button>
+                <button id="close-menu-btn"><i
+                        class=" uil uil-multiply"></i></button>
+            </div>
+        </nav>
+        <!-- END OF NAVBAR-->
+
+        <div class="login-container">
+            <h2>Padre Login</h2>
+            <form action="login.php" method="POST">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password"
+                        required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+
+        <!-- Start OF Footer-->
+        <footer class="footer">
+            <div class="container footer_container">
+                <div class="footer_1">
+                    <a href="index.html" class="footer_logo"><h4>I.E.P. Virgen
+                            de Guadalupe - Educación Inicial y Primaria</h4></a>
+                    <p>
+                        "Creciendo con amor, aprendiendo con alegría."
+                    </p>
+                </div>
+
+                <div class="footer_2">
+                    <h4>Permalinks</h4>
+                    <ul class="permalinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="login.html">Log-in</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_3">
+                    <h4>Legal</h4>
+                    <ul class="privacy">
+                        <li><a>Privacidad Policy</a></li>
+                        <li><a>Terms and Conditions</a></li>
+                        <li><a>Refund Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_4">
+                    <h4>Contactanos</h4>
+                    <div>
+                        <p>940183021-999223803</p>
+                        <p>ladyvasquezlupe@gmail.com</p>
+                    </div>
+
+                    <ul class="footer_socials">
+                        <li>
+                            <a
+                                href="https://www.facebook.com/kindervirgendeguadalupe"><i
+                                    class="uil uil-facebook-f"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer_copyright">
+                    <small>Copyright &copy; 2024 I.E.P. Virgen de Guadalupe -
+                        Educación Inicial y Primaria</small>
+                </div>
+            </div>
+        </footer>
+        <!-- End of Footer-->
+
+        <script src="./main.js"></script>
+
+    </body>
+</html>
